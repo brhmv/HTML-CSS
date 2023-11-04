@@ -1,0 +1,10 @@
+.headers{
+    background-color: red;
+    height: 40px !important;
+    position: sticky;
+    top: 0;
+}
+
+.div-p {
+    background-color: gray !important;
+}

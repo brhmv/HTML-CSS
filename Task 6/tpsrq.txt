@@ -1,0 +1,1 @@
+1-ci tapşırıqda olan səhifəyə Media query ile mobil , tablet ve web versiyani hazırlamaq

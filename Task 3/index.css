@@ -1,0 +1,146 @@
+@import url("https: //fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+body {background-color: #000000;}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* header */
+.main-header  {
+    background-color:#ffbf00;
+    color: #000000;
+ }
+
+.header-content {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     max-width: 100%;
+     margin: 0 auto;
+     padding: 0 20px;
+ }
+
+nav ul {
+     list-style: none;
+     display: flex;
+ }
+
+nav li {
+     margin-right: 20px;
+}
+
+nav a {
+     text-decoration: none;
+     color: #000000;
+     font-size: 20px;
+ }
+
+/* main */
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width:100%;
+    width: 100%;
+}
+
+.left-aside {
+    flex: 1;
+    padding: 10px;
+    background-color: #ffbf00;
+    margin: 0;
+}
+
+.left-aside-ul {
+    list-style: none;
+    line-height: 30px;
+}
+
+aside a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main section {
+    flex: 4 ;
+    padding: 10px;
+    color: #f5f5f5;
+    font-family: 'Quicksand', sans-serif;
+}
+
+article {
+    background-color: #ffae00;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+article h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+article p {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #666;
+}
+
+main p {
+    color: rgb(250, 250, 250);
+}
+
+.right-aside {
+    flex: 1;
+    padding: 2px;
+    background-color: #787878;
+}
+
+img {
+    width: 240PX;
+    height: 100%;
+    margin: 20px ;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #787878;
+    color: #fff;
+    bottom: 1;
+    max-width: 100%;
+    height: 80px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section  {
+    flex: 1;
+    margin-right: 10px;
+}
+
+footer h3{
+    color: #000000;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer a,address{
+    color: rgb(0, 21, 255);
+}
+
+footer > p {
+    color: rgb(0, 21, 255);
+}
+
+
+
+
+
+

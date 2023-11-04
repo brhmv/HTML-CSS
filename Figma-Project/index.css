@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto+Slab&display=swap');
+
+/* header */
+
+header{
+    padding: 0;
+    margin-left: 320px;
+}
+
+.logo-mobile-black{
+    width: 112px;
+    height: 66px;
+    flex-shrink: 0;
+    margin-top: 21px;     
+}
+
+.globe-logo{
+    width: 22px;
+    height: 21px;
+    flex-shrink: 0;
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+.course-info-div{
+    width: 40vw;
+    margin-top: 80px;     
+    align-items: center;
+    display: flex;
+    flex-flow:row;    
+    margin-bottom: 0px;
+    padding: 0px; 
+    margin-right: 0;
+}
+
+.course-info-div > p{
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: #000;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+.header-content-div{
+     
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    flex-flow: row;
+}
+
+.header-content-div-1{
+    margin-top: 0px;
+    padding: 0px;
+    gap: 0px;
+}
+
+.header-content-div-1 >h1{
+    color: #000;
+    font-family: Roboto Slab;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 101.385%;
+    width: 628px;
+    height: 190px;
+    margin-bottom: 0;
+    margin-top: 29px;
+}
+
+.header-content-div-1 >p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 414px;
+    height: 62px;
+    flex-shrink: 0;
+    margin-top: 0px;
+}
+
+/* ////////////////////////////// */
+
+.header-content-div-2{
+position: relative;
+}
+
+.no-root1-img{
+    width: 304px;
+    height: 280px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 110px;
+}
+
+.ellipse{
+    position: absolute;
+    width: 274px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #EFEFEF;    
+    left: 145px;
+    bottom: 5px;
+    z-index: -1;
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+.paragraph-header-div{
+    margin-left: 609.39px;
+    margin-right: 346.98px;
+    background-color: #1E4681;
+    width: 483.635px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+.paragraph-header-div > .p1{
+    color: #FFF;
+    font-family: Roboto Slab;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.paragraph-header-div > .p2{
+    color: #FFF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+/* ////////////////////////////////////////////////////////// */

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .center-div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-container {
+            text-align: center;
+            border: 1px solid #0088ff;
+            padding: 20px;
+            width: 300px;
+            background-color: #0088ff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center-div">
+        <container class="login-container">
+            <h1>Sign up</h1>
+            <form action="/user" method="POST">
+                <label for="username">Username</label>
+                <br />
+                <br />
+                <input type="username" name="name" required />
+                <br />
+                <br />
+                <label for="password">Password</label>
+                <br />
+                <br />
+                <input name="password" type="password" required />
+                <br>
+                <br>
+                <label for="email">Email</label>
+                <br>
+                <br>
+                <input name="email" type="email" required />
+                <br>
+                <br>
+                <label for="birthdate">Birthdate</label>
+                <br>
+                <br>
+                <input name="birthdate" type="date" required />
+                <br>
+                <br>
+                <h3><b><i>Gender</i></b></h3>
+                <fieldset>
+                    <input type="radio" name="gender" value="man" />
+                    <label>Man</label>
+                    <input type="radio" name="gender" value="woman" />
+                    <label>Woman</label>
+                </fieldset>
+                <h3><b><i>Membership</i></b></h3>
+                <fieldset>
+                    <input type="radio" name="membership" value="basic" />
+                    <label>Basic</label>
+                    <input type="radio" name="membership" value="pro" />
+                    <label>Pro</label>
+                    <input type="radio" name="membership" value="lifetime" />
+                    <label>Lifetime</label>
+                </fieldset>
+                <br>
+                <br>
+                <button>Save</button>
+
+
+        </container>
+    </div>
+</body>
+
+</html>

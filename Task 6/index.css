@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Meroitic&family=Roboto+Mono:wght@300&family=Rubik+Iso&display=swap');
+div {
+    /* background-color: brown; */
+    
+}
+
+.list {
+    /* font-family: 'Roboto Mono', monospace; */
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-image: url("small.jpeg");
+    background-repeat: none;
+    background-size: contain;
+    color: dark;
+}
+
+ul, ol{
+    /* font-family: 'Rubik Iso', cursive; */
+    color: black;
+    list-style: none;
+    line-height: 30px;
+    letter-spacing: 10px;
+    letter-spacing: 15px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: inherit;
+}
+
+.link-button{
+    width: 70px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: black;
+    padding-bottom: 1px;
+    color: white;
+}
+
+.link-button:hover{
+    background-color: burlywood;
+    color: black !important;
+}
+
+li:first-child{
+    font-size: 40px;
+}
+ul  li{
+    background-color: darkblue;
+
+}
+
+input {
+    all: unset;
+    border-bottom: 2px solid black;
+}
+input[name=username]{
+    /* padding: 20px; */
+    color: red;
+}
+
+
+
+/* #first-list{
+    background-color: aqua;
+} */
+
+
+
+
+/* ul, ol {
+    color: coral;
+} */
+
+/* .colorpicker{
+    color: chartreuse;
+} */
